@@ -75,6 +75,10 @@ You can also provide a custom action instead:
 />
 ```
 
+## Example
+
+Checkout the [Example code](https://github.com/DarkSmile92/reach-router-scroll-top/tree/main/example) for a working example with create-react-app.
+
 ## Documentation
 
 **Component: OnRouteChange**
