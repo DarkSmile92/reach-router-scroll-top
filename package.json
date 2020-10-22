@@ -1,0 +1,51 @@
+{
+  "name": "reach-router-scroll-top",
+  "version": "1.0.0",
+  "description": "Scroll to top when navigating with Reach Router using hooks.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "oldbuild": "babel src -d dist",
+    "prepublish": "rm -rf ./dist && npm run build",
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarkSmile92/reach-router-scroll-top.git"
+  },
+  "keywords": [
+    "reach",
+    "reach-router",
+    "react",
+    "hooks"
+  ],
+  "author": "Robin Kretzschmar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DarkSmile92/reach-router-scroll-top/issues"
+  },
+  "homepage": "https://github.com/DarkSmile92/reach-router-scroll-top#readme",
+  "peerDependencies": {
+    "@reach/router": ">=1.3.4",
+    "react": ">=17.0.0"
+  },
+  "devDependencies": {
+    "@reach/router": "^1.3.4",
+    "@types/reach__router": "^1.3.6",
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-runtime": "^6.26.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "rollup": "^2.32.1",
+    "rollup-plugin-typescript2": "^0.28.0",
+    "typescript": "^4.0.3"
+  },
+  "files": [
+    "dist"
+  ]
+}
